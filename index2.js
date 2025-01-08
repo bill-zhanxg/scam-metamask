@@ -62,7 +62,7 @@ async function main() {
 		.then(console.log);
 
 	// restart
-	await new Promise((resolve) => setTimeout(resolve, Math.random() * (5000 - 500) + 500));
+	await new Promise((resolve) => setTimeout(resolve, Math.random() * (2000 - 500) + 500));
 	main();
 }
 
